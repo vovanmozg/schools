@@ -1,0 +1,789 @@
+a3	Вторая Санкт-Петербургская гимназия	admiraltejskij
+a21	№ 278, гимназия	admiraltejskij
+a17	№ 263, школа с углубленным изучением английского языка	admiraltejskij
+a28	№ 307, школа	admiraltejskij
+a23	№ 281, лицей с углубленным изучением химии	admiraltejskij
+a33	Дипломат, частная школа	admiraltejskij
+a30	№ 564, школа (классы ЛНМО)	admiraltejskij
+a27	№ 306, школа с углубленным изучением английского языка	admiraltejskij
+a20	№ 272, гимназия	admiraltejskij
+a9	№ 238, школа с углубленным изучением английского языка	admiraltejskij
+a37	Школа народного искусства Императрицы Александры Федоровны (ШНИ)	admiraltejskij
+a1	Средняя специальная музыкальная школа имени Н. А. Римского-Корсакова (ССМШ)	admiraltejskij
+a6	№ 232, школа	admiraltejskij
+a7	№ 234, школа	admiraltejskij
+a739	Суворовское военное училище МО РФ (СВУ)	admiraltejskij
+a18	№ 266, школа с углубленным изучением французского языка	admiraltejskij
+a11	№ 243, школа	admiraltejskij
+a24	№ 286, школа (классы ЛНМО)	admiraltejskij
+a5	№ 229, школа	admiraltejskij
+a10	№ 241, школа	admiraltejskij
+a703	Экспресс, школа экстернат	admiraltejskij
+a22	№ 280, школа имени М. Ю. Лермонтова	admiraltejskij
+a4	№ 225, школа	admiraltejskij
+a14	№ 256, школа	admiraltejskij
+a19	№ 267, школа	admiraltejskij
+a39	ШКОЛА ТЕАТРА, ТЕЛЕВИДЕНИЯ И ШОУ-БИЗНЕСА (ШТТиШБ)	admiraltejskij
+a13	№ 255, школа - отделение дополнительного образования «Школа-творчество»	admiraltejskij
+a754	№ 616, Центр "Динамика" для детей с ДЦП	admiraltejskij
+a15	№ 259, школа	admiraltejskij
+a16	№ 260, школа	admiraltejskij
+a8	№ 235, школа им. Д. Д. Шостаковича с углубленным изучением предметов художественно-эстетического цикла	admiraltejskij
+a29	№ 317, школа	admiraltejskij
+a12	№ 245, школа	admiraltejskij
+a35	УСПЕХ, общеобразовательный центр	admiraltejskij
+a40	ЛОГОС, средняя школа	admiraltejskij
+a26	№ 288, школа	admiraltejskij
+a25	№ 287, школа	admiraltejskij
+a762	№ 195, центр образования	admiraltejskij
+a799	Колледж при Санкт-Петербургском Университете Управления и Экономики (СПБУУиЭ)	admiraltejskij
+a31	№ 615, начальная общеобразовательная школа	admiraltejskij
+a32	№ 624, начальная общеобразовательная школа - детский сад	admiraltejskij
+a34	Бизнес-школа «ДЕЛОВАЯ ВОЛНА»	admiraltejskij
+a38	ШКОЛА-ПЛЮС	admiraltejskij
+a42	Классическая еврейская гимназия-пансион	admiraltejskij
+a501	ФРАНЦУЗСКАЯ ШКОЛА АНДРЭ МАЛЬРО в СПб	admiraltejskij
+a773	№ 2, речевая школа-интернат	admiraltejskij
+a777	№ 5,  коррекционная школа (V вида) для детей с нарушениями речи	admiraltejskij
+a1094	№ 522, коррекционная школа (VII  вида)	admiraltejskij
+a1097	№ 231, специальная (коррекционная) школа (VIII вида)	admiraltejskij
+a63	№ 30, физико-математический лицей	vasileostrovskij
+a43	Академическая гимназия СПбГУ	vasileostrovskij
+a46	№ 4, школа им. Жака-Ива Кусто с углубленным изучением французского языка	vasileostrovskij
+a59	№ 24, гимназия им. И. А. Крылова	vasileostrovskij
+a69	№ 586, гимназия	vasileostrovskij
+a56	№ 18, школа с углубленным изучением математики	vasileostrovskij
+a52	№ 12, школа с углубленным изучением английского языка	vasileostrovskij
+a64	№ 31, школа с углубленным изучением английского языка	vasileostrovskij
+a51	№ 11, гимназия с углубленным изучением английского языка	vasileostrovskij
+a72	№ 700, школа с углубленным изучением иностранных языков	vasileostrovskij
+a44	Санкт-Петербургский государственный академический художественный лицей им. Б.В.Иогансона	vasileostrovskij
+a62	№ 29, школа с углубленным изучением французского языка и права	vasileostrovskij
+a50	№ 10, школа с углубленным изучением химии	vasileostrovskij
+a70	№ 642, гимназия «Земля и Вселенная»	vasileostrovskij
+a54	№ 16, школа	vasileostrovskij
+a65	№ 32, гимназия	vasileostrovskij
+a78	Центр Искусства Воспитания, вальдорфская школа	vasileostrovskij
+a66	№ 35, школа с углубленным изучением английского языка	vasileostrovskij
+a73	Ювента, частная школа	vasileostrovskij
+a60	№ 27, школа с углубленным изучением литературы, истории и иностранных языков	vasileostrovskij
+a53	№ 15, школа	vasileostrovskij
+a45	№ 2, школа	vasileostrovskij
+a49	№ 9, школа с углубленным изучением французского языка	vasileostrovskij
+a55	№ 17, школа	vasileostrovskij
+a58	№ 21, школа	vasileostrovskij
+a61	№ 28, школа	vasileostrovskij
+a47	№ 5, школа	vasileostrovskij
+a57	№ 19, школа	vasileostrovskij
+a48	№ 6, школа	vasileostrovskij
+a68	№ 576, школа-интернат с углубленным изучением предмета «Физическая культура»	vasileostrovskij
+a735	№ 575, центр образования	vasileostrovskij
+a736	Радиотехнический профессиональный лицей	vasileostrovskij
+a67	№ 36, школа начального общего образования	vasileostrovskij
+a74	Человечек, школа - детский сад	vasileostrovskij
+a75	АСПЕКТ, частная британская школа	vasileostrovskij
+a76	ИЗЮМИНКА	vasileostrovskij
+a765	Православная школа семьи Шостаковичей	vasileostrovskij
+a776	№ 4, специальная школа VIII вида	vasileostrovskij
+a1096	Школа им. С. Т. Шацкого	vasileostrovskij
+a1118	Немецкая школа при Генеральном консульстве Германии	vasileostrovskij
+a71	№ 645, школа	vasileostrovskij
+a83	№ 73, Ломоносовская гимназия	vyiborgskij
+a136	Медицинская Гимназия с православным воспитанием детей	vyiborgskij
+a84	№ 74, гимназия	vyiborgskij
+a188	Естественно-научный лицей СПбПУ (ЕНЛ СПбПУ)	vyiborgskij
+a130	№ 605, школа с углубленным изучением немецкого языка	vyiborgskij
+a80	№ 61, гимназия	vyiborgskij
+a121	№ 488, лицей	vyiborgskij
+a88	№ 92, гимназия	vyiborgskij
+a125	№ 534, школа с углубленным изучением английского языка	vyiborgskij
+a96	№ 105, гимназия	vyiborgskij
+a137	Паскаль Лицей, частная школа	vyiborgskij
+a131	№ 622, гимназия с углубленным изучением права	vyiborgskij
+a616	№ 295, гимназия	vyiborgskij
+a133	№ 652, гимназия	vyiborgskij
+a86	№ 83, школа с углубленным изучением японского и английского языков	vyiborgskij
+a140	Менахем, школа-сад, частное общеобразовательное учреждение	vyiborgskij
+a92	№ 101, лицей	vyiborgskij
+a132	№ 623, лицей им. И. П. Павлова	vyiborgskij
+a111	№ 457, школа с углубленным изучением английского языка	vyiborgskij
+a101	№ 114, гимназия	vyiborgskij
+a97	№ 107, гимназия	vyiborgskij
+a126	№ 558, школа с углубленным изучением математики	vyiborgskij
+a94	№ 103, школа с углубленным изучением математики	vyiborgskij
+a123	№ 517, школа с углубленным изучением предметов экономического профиля	vyiborgskij
+a81	№ 62, школа	vyiborgskij
+a107	№ 124, школа с углубленным изучением английского языка	vyiborgskij
+a745	№ 584, коррекционная школа для детей с заболеваниями опорно-двигательного аппарата неврологического характера.	vyiborgskij
+a124	№ 518, школа	vyiborgskij
+a82	№ 65, школа с углубленным изучением французского языка	vyiborgskij
+a93	№ 102, школа	vyiborgskij
+a109	№ 135, школа	vyiborgskij
+a120	№ 486, лицей	vyiborgskij
+a112	№ 463, школа	vyiborgskij
+a113	№ 468, школа	vyiborgskij
+a122	№ 494, школа	vyiborgskij
+a744	№ 33, школа-интернат для слабослышащих детей	vyiborgskij
+a105	№ 120, школа	vyiborgskij
+a127	№ 559, школа с углубленным изучением физики и математики	vyiborgskij
+a103	№ 117, школа	vyiborgskij
+a119	№ 483, школа с углубленным изучением информатики	vyiborgskij
+a115	№ 471, школа	vyiborgskij
+a85	№ 76, школа	vyiborgskij
+a100	№ 112, школа	vyiborgskij
+a87	№ 90, школа	vyiborgskij
+a95	№ 104, школа	vyiborgskij
+a110	№ 453, школа	vyiborgskij
+a79	№ 60, школа	vyiborgskij
+a90	№ 97, школа	vyiborgskij
+a106	№ 123, школа	vyiborgskij
+a116	№ 472, школа имени А. Т. Карпова	vyiborgskij
+a102	№ 115, школа	vyiborgskij
+a128	№ 560, школа	vyiborgskij
+a104	№ 118, школа	vyiborgskij
+a99	№ 110, школа	vyiborgskij
+a89	№ 94, школа	vyiborgskij
+a117	№ 474, школа	vyiborgskij
+a118	№ 475, школа	vyiborgskij
+a743	Санкт-Петербургский технический колледж управления и коммерции (ТКУиК)	vyiborgskij
+a815	№ 1, колледж олимпийского резерва	vyiborgskij
+a91	№ 100, центр образования	vyiborgskij
+a114	№ 469, школа	vyiborgskij
+a108	№ 130, прогимназия	vyiborgskij
+a134	№ 677, прогимназия интеллектуального, художественно-эстетического и физического развития воспитанников и обучающихся	vyiborgskij
+a139	РОСТ, частная школа	vyiborgskij
+a141	МАСТЕР-КЛАСС, школа вариативного обучения	vyiborgskij
+a770	№ 1, школа-интернат (I вида) для неслышащих детей	vyiborgskij
+a779	№ 6, коррекционная школа V вида для детей с нарушениями речи	vyiborgskij
+a1098	№ 487, специальная (коррекционная) школа (VIII вида)	vyiborgskij
+a1120	№ 482, школа	vyiborgskij
+a98	№ 108, школа	vyiborgskij
+a129	№ 563, школа «Пушкинский лицей»	vyiborgskij
+a135	ФТШ, лицей «Физико-техническая школа» Академического университета	kalininskij
+a183	№ 470, лицей	kalininskij
+a160	№ 126, лицей	kalininskij
+a143	№ 63, гимназия с углубленным изучением иностранных языков	kalininskij
+a154	№ 95, лицей	kalininskij
+a166	№ 144, лицей	kalininskij
+a179	№ 179, лицей	kalininskij
+a171	№ 150, лицей	kalininskij
+a169	№ 148, гимназия им. Сервантеса	kalininskij
+a187	№ 619, школа	kalininskij
+a174	№ 159, Бестужевская гимназия	kalininskij
+a156	№ 98, школа с углубленным изучением английского языка	kalininskij
+a182	№ 192, Брюсовская гимназия	kalininskij
+a157	№ 111, школа с углубленным изучением немецкого языка	kalininskij
+a152	№ 89, школа	kalininskij
+a146	№ 71, школа	kalininskij
+a165	№ 139, школа с углубленным изучением математики	kalininskij
+a158	№ 119, школа с углубленным изучением английского языка	kalininskij
+a164	№ 138, школа	kalininskij
+a173	№ 158, школа	kalininskij
+a148	№ 78, школа	kalininskij
+a147	№ 72, школа с углубленным изучением немецкого языка	kalininskij
+a172	№ 156, школа с углубленным изучением информатики	kalininskij
+a145	№ 69, школа	kalininskij
+a149	№ 79, школа	kalininskij
+a159	№ 121, школа	kalininskij
+a783	№ 9, школа-интернат VI вида	kalininskij
+a151	№ 88, школа	kalininskij
+a191	№ 692, школа	kalininskij
+a163	№ 137, школа	kalininskij
+a190	№ 653, школа с углубленным изучением иностранных языков (хинди и английский)	kalininskij
+a144	№ 68, школа	kalininskij
+a180	№ 184, школа	kalininskij
+a177	№ 175, школа с углубленным изучением предметов художественно-эстетического цикла	kalininskij
+a184	№ 473, школа 	kalininskij
+a167	№ 145, школа (кадетские классы)	kalininskij
+a161	№ 128, школа	kalininskij
+a150	№ 81, школа	kalininskij
+a185	№ 514, школа 	kalininskij
+a176	№ 172, школа	kalininskij
+a186	№ 535, школа	kalininskij
+a168	№ 146, школа	kalininskij
+a816	№ 10, открытая сменная школа для учащихся с нарушениями слуха и речи	kalininskij
+a170	№ 149, школа	kalininskij
+a181	№ 186, школа	kalininskij
+a743	Санкт-Петербургский технический колледж управления и коммерции (ТКУиК)	kalininskij
+a178	№ 176, школа	kalininskij
+a162	№ 136, школа	kalininskij
+a155	№ 96, школа	kalininskij
+a175	№ 162, школа	kalininskij
+a189	№ 633, центр образования	kalininskij
+a142	№ 28, школа-интернат	kalininskij
+a192	№ 701, начальная школа - детский сад «ИЗУМРУДНЫЙ ГОРОД»	kalininskij
+a825	Монтессори-школа Михайловой (МШМ)	kalininskij
+a826	№ 561, коррекционная общеобразовательная школа VII вида	kalininskij
+a1099	№ 46, специальная (коррекционная) школа (VIII вида) "Центр РиМ"	kalininskij
+a153	№ 93, школа	kalininskij
+a756	№ 55, центр образования	kalininskij
+a204	№ 261, гимназия	kirovskij
+a223	№ 393, информационно-математический лицей	kirovskij
+a198	№ 248, гимназия с углубленным изучением английского языка	kirovskij
+a240	Взмах, частная школа	kirovskij
+a197	№ 244, лицей	kirovskij
+a217	№ 384, лицей	kirovskij
+a230	№ 504, школа с углубленным изучением английского языка	kirovskij
+a226	№ 481, школа с углубленным изучением немецкого языка	kirovskij
+a231	№ 506, школа с углубленным изучением немецкого языка	kirovskij
+a224	№ 397, гимназия им. Г. Старовойтовой	kirovskij
+a195	№ 223, школа с углубленным изучением немецкого языка	kirovskij
+a202	№ 254, школа с углубленным изучением английского языка	kirovskij
+a207	№ 274, школа с углубленным изучением иностранных языков	kirovskij
+a234	№ 551, школа	kirovskij
+a199	№ 249, школа им. М. В. Маневича	kirovskij
+a221	№ 389, лицей - Центр экологического образования	kirovskij
+a214	№ 378, лицей	kirovskij
+a228	№ 501, школа с углубленным изучением предмета информатики и информационно-коммуникационных технологий	kirovskij
+a219	№ 387, лицей	kirovskij
+a222	№ 392, школа с углубленным изучением французского языка	kirovskij
+a239	№ 658, школа с элементами вальдорфской педагогики	kirovskij
+a233	№ 539, школа с углубленным изучением испанского языка	kirovskij
+a210	№ 282, школа с углубленным изучением французского языка	kirovskij
+a772	№ 2, школа-интернат (IV вида) для слабовидящих детей	kirovskij
+a236	№ 585, школа	kirovskij
+a205	№ 264, школа	kirovskij
+a232	№ 538, школа с углубленным изучением информационных технологий	kirovskij
+a244	ШКОЛА РАЗГОВОРНЫХ ЯЗЫКОВ ЧОУ	kirovskij
+a212	№ 284, гимназия	kirovskij
+a215	№ 379, школа	kirovskij
+a218	№ 386, школа	kirovskij
+a213	№ 377, школа	kirovskij
+a216	№ 381, школа	kirovskij
+a227	№ 493, школа	kirovskij
+a211	№ 283, школа	kirovskij
+a229	№ 503, школа	kirovskij
+a814	Санкт-Петербургское Суворовское военное училище МВД России	kirovskij
+a194	№ 221, школа, городской ресурсный центр гражданско-правового образования	kirovskij
+a220	№ 388, школа	kirovskij
+a206	№ 269, школа	kirovskij
+a225	№ 479, школа славянских культур	kirovskij
+a237	№ 608, школа	kirovskij
+a200	№ 250, школа	kirovskij
+a208	№ 277, школа	kirovskij
+a201	№ 251, школа	kirovskij
+a196	№ 240, школа	kirovskij
+a758	№ 162, центр образования	kirovskij
+a238	№ 654, школа с углубленным изучением предметов художественно-эстетического цикла (хореография)	kirovskij
+a241	ДЕЛЬТА, частная школа-детский сад	kirovskij
+a1100	№ 480, специальная (коррекционная) школа (VII вида)	kirovskij
+a209	№ 279, школа индивидуального развития и обучения	kirovskij
+a203	№ 257, школа	kirovskij
+a811	Центр информационной культуры (ЦИК)	kirovskij
+a252	№ 446, гимназия	kolpinskij
+a249	№ 402, гимназия	kolpinskij
+a246	№ 273, лицей	kolpinskij
+a245	№ 258, школа с углубленным изучением физики и химии	kolpinskij
+a257	№ 455, школа с углубленным изучением английского языка	kolpinskij
+a250	№ 404, школа	kolpinskij
+a268	№ 621, школа	kolpinskij
+a262	№ 476, школа	kolpinskij
+a265	№ 523, школа	kolpinskij
+a251	№ 420, школа	kolpinskij
+a259	№ 461, школа	kolpinskij
+a261	№ 467, школа	kolpinskij
+a248	№ 401, школа	kolpinskij
+a258	№ 456, школа	kolpinskij
+a266	№ 588, школа	kolpinskij
+a264	№ 520, школа	kolpinskij
+a267	№ 589, школа	kolpinskij
+a256	№ 454, школа	kolpinskij
+a247	№ 400, школа им. Ал. Невского	kolpinskij
+a253	№ 451, школа	kolpinskij
+a759	№ 170, центр образования	kolpinskij
+a254	№ 452, школа	kolpinskij
+a255	№ 453, начальная школа	kolpinskij
+a260	№ 465, школа	kolpinskij
+a828	№ 432, коррекционная школа (VII и VIII вида)	kolpinskij
+a755	№ 648, школа	kolpinskij
+a263	№ 478, школа	kolpinskij
+a305	№ 628, Александринская гимназия	krasnogvardejskij
+a312	Петершуле, немецкая гимназия	krasnogvardejskij
+a284	№ 177, гимназия	krasnogvardejskij
+a304	№ 577, школа с углубленным изучением английского языка	krasnogvardejskij
+a270	№ 127, школа с углубленным изучением английского языка	krasnogvardejskij
+a280	№ 160, школа с углубленным изучением английского языка	krasnogvardejskij
+a291	№ 196, гимназия	krasnogvardejskij
+a306	№ 664, гимназия-интернат	krasnogvardejskij
+a771	№ 1, школа-интернат имени К.К.Грота (для незрячих и слабовидящих детей)	krasnogvardejskij
+a294	№ 265, лицей	krasnogvardejskij
+a801	№ 531, школа	krasnogvardejskij
+a282	№ 164, школа	krasnogvardejskij
+a302	№ 533, лицей, образовательный комплекс «МАЛАЯ ОХТА» | ЮМШ	krasnogvardejskij
+a299	№ 515, школа им. И. В. Гёте (Гётешуле) с углубленным изучением немецкого языка	krasnogvardejskij
+a296	№ 405, гимназия с углубленным изучением английского и французского языков	krasnogvardejskij
+a300	№ 521, школа с углубленным изучением математики и информатики	krasnogvardejskij
+a288	№ 188, школа с углубленным изучением предметов художественно-эстетического цикла	krasnogvardejskij
+a275	№ 141, школа	krasnogvardejskij
+a295	№ 349, школа с углубленным изучением английского языка	krasnogvardejskij
+a301	№ 532, школа	krasnogvardejskij
+a298	№ 491, школа с углубленным изучением математики	krasnogvardejskij
+a293	№ 233, школа с углубленным изучением иностранных языков	krasnogvardejskij
+a285	№ 180, школа с углубленным изучением английского языка	krasnogvardejskij
+a277	№ 147, ресурсный центр по гражданско-правовому образованию	krasnogvardejskij
+a193	Гимназия им. Александра Невского	krasnogvardejskij
+a278	№ 151, школа	krasnogvardejskij
+a303	№ 562, школа	krasnogvardejskij
+a276	№ 143, школа с углубленным изучением английского языка	krasnogvardejskij
+a290	№ 195, школа	krasnogvardejskij
+a289	№ 191, школа с углубленным изучением немецкого языка	krasnogvardejskij
+a309	Школа здоровья и индивидуального развития	krasnogvardejskij
+a272	№ 133, школа с углубленным изучением французского языка	krasnogvardejskij
+a273	№ 134, школа	krasnogvardejskij
+a297	№ 490, школа с углубленным изучением иностранных языков	krasnogvardejskij
+a271	№ 129, школа	krasnogvardejskij
+a286	№ 182, школа	krasnogvardejskij
+a287	№ 187, школа	krasnogvardejskij
+a311	АРИСТОС, лицей	krasnogvardejskij
+a269	№ 125, школа	krasnogvardejskij
+a279	№ 152, школа	krasnogvardejskij
+a274	№ 140, школа	krasnogvardejskij
+a813	№ 2, Санкт-Петербургское Училище Олимпийского резерва (СПУОР)	krasnogvardejskij
+a310	УЧАСТИЕ, образовательный центр	krasnogvardejskij
+a738	Эпишкола	krasnogvardejskij
+a774	№ 3, речевая школа	krasnogvardejskij
+a780	№ 6, школа-интернат для детей-сирот	krasnogvardejskij
+a839	№ 499, коррекционная школа VIII вида	krasnogvardejskij
+a1104	№ 609, специальная (коррекционная) школа (VII вида)	krasnogvardejskij
+a812	№ 1, открытая (сменная) школа для слепых и слабовидящих детей	krasnogvardejskij
+a292	№ 198, школа	krasnogvardejskij
+a283	№ 170, школа	krasnogvardejskij
+a331	№ 369, лицей	krasnoselskij
+a347	№ 548, школа с углубленным изучением английского языка	krasnoselskij
+a342	№ 399, гимназия	krasnoselskij
+a334	№ 382, школа	krasnoselskij
+a323	№ 271, гимназия	krasnoselskij
+a354	Школа экономики и права (ШЭиП)	krasnoselskij
+a340	№ 395, лицей	krasnoselskij
+a345	№ 505, гимназия	krasnoselskij
+a350	№ 590, лицей	krasnoselskij
+a329	№ 293, гимназия	krasnoselskij
+a341	№ 398, школа	krasnoselskij
+a355	Санкт-Петербургская международная школа и школа-пансион (СПбМШ)	krasnoselskij
+a318	№ 242, школа с углубленным изучением физики и математики	krasnoselskij
+a333	№ 380, школа	krasnoselskij
+a330	№ 352, школа с углубленным изучением немецкого языка	krasnoselskij
+a348	№ 549, школа	krasnoselskij
+a325	№ 276, школа	krasnoselskij
+a353	Лицей искусств «Санкт-Петербург»	krasnoselskij
+a349	№ 568, школа	krasnoselskij
+a337	№ 390, школа	krasnoselskij
+a326	№ 285, школа	krasnoselskij
+a317	№ 237, школа	krasnoselskij
+a335	№ 383, школа	krasnoselskij
+a320	№ 252, школа	krasnoselskij
+a322	№ 270, школа	krasnoselskij
+a332	№ 375, школа	krasnoselskij
+a314	№ 200, школа с углубленным изучением финского языка	krasnoselskij
+a784	№ 291, школа	krasnoselskij
+a324	№ 275, школа	krasnoselskij
+a321	№ 262, школа	krasnoselskij
+a336	№ 385, школа	krasnoselskij
+a338	№ 391, школа	krasnoselskij
+a316	№ 217, школа	krasnoselskij
+a315	№ 208, школа	krasnoselskij
+a343	№ 414, школа	krasnoselskij
+a319	№ 247, школа	krasnoselskij
+a346	№ 546, школа с углубленным изучением предметов художественно-эстетического цикла	krasnoselskij
+a339	№ 394, школа	krasnoselskij
+a327	№ 289, школа-интернат	krasnoselskij
+a328	№ 290, школа	krasnoselskij
+a763	№ 167, центр образования	krasnoselskij
+a344	№ 428, начальная школа - детский сад	krasnoselskij
+a351	№ 675, прогимназия «ТАЛАНТ» для детей дошкольного и младшего школьного возраста	krasnoselskij
+a352	№ 678, начальная школа - детский сад	krasnoselskij
+a989	№ 7, коррекционная школа (VII и VIII вида)	krasnoselskij
+a1106	№ 547, школа	krasnoselskij
+a1110	№ 131, коррекционная общеобразовательная школа (VII вида)	krasnoselskij
+a357	№ 422, школа	kronshtadtskij
+a358	№ 423, школа	kronshtadtskij
+a356	№ 418, школа	kronshtadtskij
+a360	№ 425, школа им. академика П. Л. Капицы	kronshtadtskij
+a767	Кронштадтский морской кадетский корпус (КМКК)	kronshtadtskij
+a361	№ 427, школа	kronshtadtskij
+a359	№ 424, школа	kronshtadtskij
+a362	№ 662, начальная школа - детский сад компенсирующего вида для детей с нарушением зрения, речи, с задержкой психического развития	kronshtadtskij
+a764	Школа "Аксон"	kronshtadtskij
+a787	№ 676, коррекционная школа	kronshtadtskij
+a364	№ 433, гимназия	kurortnyij
+a374	№ 556, школа с углубленным изучением английского языка	kurortnyij
+a371	№ 450, школа	kurortnyij
+a363	№ 324, школа	kurortnyij
+a368	№ 442, школа	kurortnyij
+a369	№ 445, лицей	kurortnyij
+a366	№ 435, школа	kurortnyij
+a372	№ 466, школа	kurortnyij
+a740	Школа-интернат "Олимпийский резерв" (ГОШИОР)	kurortnyij
+a373	№ 541, школа	kurortnyij
+a370	№ 447, школа	kurortnyij
+a365	№ 434, школа	kurortnyij
+a367	№ 437, школа	kurortnyij
+a742	№ 669, центр образования	kurortnyij
+a375	№ 611, школа	kurortnyij
+a1039	№ 545, школа	kurortnyij
+a1119	Академия	kurortnyij
+a384	№ 366, физико-математический лицей	moskovskij
+a405	№ 526, гимназия	moskovskij
+a401	№ 524, гимназия	moskovskij
+a403	№ 525, школа с углубленным изучением английского языка	moskovskij
+a387	№ 373, "Экономический лицей"	moskovskij
+a385	№ 371, школа	moskovskij
+a376	№ 1, школа с углубленным изучением английского языка	moskovskij
+a412	№ 643, школа	moskovskij
+a381	№ 356, школа с углубленным изучением немецкого языка	moskovskij
+a417	РИД, частная школа	moskovskij
+a392	№ 489, школа	moskovskij
+a398	№ 510, школа с углубленным изучением английского языка	moskovskij
+a409	№ 544, школа с углубленным изучением английского языка	moskovskij
+a377	№ 351, школа с углубленным изучением французского языка	moskovskij
+a382	№ 358, школа	moskovskij
+a395	№ 507, школа	moskovskij
+a391	№ 485, школа с углубленным изучением французского языка	moskovskij
+a406	№ 536, школа им. народного учителя Т. И. Гончаровой	moskovskij
+a379	№ 354, школа	moskovskij
+a386	№ 372, школа	moskovskij
+a397	№ 509, школа	moskovskij
+a733	"Северная Венеция", гимназия	moskovskij
+a394	№ 496, школа	moskovskij
+a420	СТУДИУМ, частная общеобразовательная школа с углубленным изучением иностранного языка	moskovskij
+a410	№ 594, школа	moskovskij
+a400	№ 519, школа	moskovskij
+a393	№ 495, школа	moskovskij
+a408	№ 543, школа	moskovskij
+a396	№ 508, школа с углубленным изучением предметов образовательных областей «Искусство» и «Технология»	moskovskij
+a407	№ 537, школа	moskovskij
+a383	№ 362, школа	moskovskij
+a380	№ 355, школа	moskovskij
+a390	№ 484, школа (кадетские классы)	moskovskij
+a378	№ 353, школа	moskovskij
+a760	№ 2, центр образования	moskovskij
+a388	№ 374, школа (кадетский класс)	moskovskij
+a414	№ 684, школа «БЕРЕГИНЯ»	moskovskij
+a415	№ 698, прогимназия «ПАНСИОН»	moskovskij
+a416	САША, сад-лицей	moskovskij
+a419	ТЕТ-А-ТЕТ, частная школа	moskovskij
+a421	УЧИМСЯ ВМЕСТЕ	moskovskij
+a802	№ 663, школа	moskovskij
+a1093	№ 376, школа	moskovskij
+a1111	№ 370, cпециальная (коррекционная) школа	moskovskij
+a766	Кадетский ракетно-артиллерийский корпус (КРАК)	moskovskij
+a741	№ 627, школа	moskovskij
+a411	№ 637, школа	moskovskij
+a389	№ 482, школа	moskovskij
+a413	№ 670, школа	moskovskij
+a447	№ 344, физико-математический лицей	nevskij
+a450	№ 347, школа с углубленным изучением английского языка	nevskij
+a433	№ 329, лицей	nevskij
+a471	№ 639, школа с углубленным изучением иностранных языков	nevskij
+a425	№ 23, школа с углубленным изучением финского языка	nevskij
+a469	№ 593, школа с углубленным изучением английского языка	nevskij
+a460	№ 528, гимназия	nevskij
+a455	№ 498, гимназия	nevskij
+a422	№ 13, школа с углубленным изучением английского языка	nevskij
+a451	№ 348, школа	nevskij
+a461	№ 557, школа	nevskij
+a464	№ 571, школа с углубленным изучением английского языка	nevskij
+a434	№ 330, гимназия	nevskij
+a448	№ 345, школа	nevskij
+a435	№ 331, школа	nevskij
+a472	№ 641, школа с углубленным изучением английского языка	nevskij
+a470	№ 625, школа с углубленным изучением математики	nevskij
+a446	№ 343, гимназия	nevskij
+a432	№ 328, школа с углубленным изучением английского языка	nevskij
+a454	№ 497, школа	nevskij
+a463	№ 570, школа	nevskij
+a449	№ 346, школа	nevskij
+a462	№ 569, школа	nevskij
+a428	№ 268, школа	nevskij
+a430	№ 326, школа	nevskij
+a476	ПРАЗДНИК+, культурологическая школа индивидуального развития полного среднего образования	nevskij
+a445	№ 342, школа	nevskij
+a440	№ 337, школа	nevskij
+a465	№ 572, лицей	nevskij
+a436	№ 332, школа	nevskij
+a467	№ 591, школа	nevskij
+a473	№ 667, школа	nevskij
+a786	Лицей при СПбГУТ	nevskij
+a444	№ 341, школа	nevskij
+a457	№ 513, гимназия (испанский, английский языки)	nevskij
+a424	№ 20, школа	nevskij
+a431	№ 327, школа	nevskij
+a426	№ 26, школа с углубленным изучением французского языка	nevskij
+a466	№ 574, школа	nevskij
+a429	№ 323, школа, культурно-образовательный центр «ОККЕРВИЛЬ»	nevskij
+a442	№ 339, школа	nevskij
+a477	ШАНС, школа индивидуального обучения	nevskij
+a438	№ 334, школа	nevskij
+a459	№ 527, школа, ресурсный центр городского уровня по гражданско-правовому образованию	nevskij
+a441	№ 338, школа	nevskij
+a452	№ 350, школа (кадетский класс)	nevskij
+a453	№ 458, школа с углубленным изучением немецкого языка	nevskij
+a427	№ 39, школа	nevskij
+a423	№ 14, школа	nevskij
+a456	№ 512, школа	nevskij
+a443	№ 340, школа	nevskij
+a785	№ 24, школа-интернат для детей-сирот	nevskij
+a458	№ 516, школа	nevskij
+a437	№ 333, школа	nevskij
+a468	№ 592, школа	nevskij
+a478	Православная общеобразовательная ГИМНАЗИЯ СВЯТОГО БЛАГОВЕРНОГО АЛЕКСАНДРА НЕВСКОГО	nevskij
+a439	№ 336, школа	nevskij
+a757	№ 133, центр образования	nevskij
+a475	№ 689, начальная школа	nevskij
+a1113	№ 17, специальная (коррекционная) школа VIII вида	nevskij
+a495	№ 610, классическая гимназия	petrogradskij
+a483	№ 56, гимназия	petrogradskij
+a484	№ 67, гимназия	petrogradskij
+a488	№ 80, школа с углубленным изучением английского языка	petrogradskij
+a487	№ 77, школа с углубленным изучением химии	petrogradskij
+a485	№ 70, гимназия	petrogradskij
+a732	№ 85, гимназия	petrogradskij
+a497	Средняя общеобразовательная школа Института специальной педагогики и психологии им. Р. Валленберга "Бобренок"	petrogradskij
+a489	№ 82, естественно-научный лицей	petrogradskij
+a417	РИД, частная школа	petrogradskij
+a498	ГЁТЕ-ШУЛЕ, немецкая школа	petrogradskij
+a481	№ 51, школа	petrogradskij
+a486	№ 75, школа с углубленным изучением немецкого языка	petrogradskij
+a491	№ 86, школа	petrogradskij
+a499	№ 224, школа "Шамир"	petrogradskij
+a479	№ 47, школа им. Д. С. Лихачева	petrogradskij
+a737	Нахимовское Военно-Морское училище	petrogradskij
+a492	№ 87, школа	petrogradskij
+a493	№ 91, школа	petrogradskij
+a490	№ 84, школа, ресурсный центр городского уровня по гражданско-правовому образованию	petrogradskij
+a809	Санкт-Петербургский институт экономики и управления (СПбИЭУ)	petrogradskij
+a480	№ 50, школа	petrogradskij
+a482	№ 55, школа	petrogradskij
+a494	№ 173, центр образования	petrogradskij
+a500	ХРИСТИАНСКАЯ ШКОЛА им. И. В. Каргеля и Ф. В. Бедекера	petrogradskij
+a775	№ 3, коррекционная школа VII вида	petrogradskij
+a1121	Гранатик, начальная частная школа	petrogradskij
+a768	Военно-космический Петра Великого кадетский корпус (ВКПВКК)	petrogradskij
+a43	Академическая гимназия СПбГУ	petrodvortsovyij
+a509	№ 426, гимназия	petrodvortsovyij
+a508	№ 419, лицей	petrodvortsovyij
+a520	№ 415, Петергофская гимназия императора Александра II	petrodvortsovyij
+a522	Элитная гимназия "Михайловская"	petrodvortsovyij
+a504	№ 412, школа	petrodvortsovyij
+a503	№ 411, школа «ГАРМОНИЯ» с углубленным изучением английского языка	petrodvortsovyij
+a506	№ 416, школа развития личности им. В. В. Павловой	petrodvortsovyij
+a515	№ 567, школа	petrodvortsovyij
+a513	№ 529, школа	petrodvortsovyij
+a797	№ 421, школа	petrodvortsovyij
+a511	№ 430, школа	petrodvortsovyij
+a510	№ 429, школа	petrodvortsovyij
+a512	№ 436, школа	petrodvortsovyij
+a505	№ 413, школа	petrodvortsovyij
+a516	№ 602, школа	petrodvortsovyij
+a507	№ 417, школа	petrodvortsovyij
+a502	№ 319, школа	petrodvortsovyij
+a514	№ 542, школа	petrodvortsovyij
+a517	№ 671, центр образования	petrodvortsovyij
+a1095	№ 49, коррекционная школа (VI вида)	petrodvortsovyij
+a1109	№ 439, школа	petrodvortsovyij
+a769	Кадетский корпус железнодорожных войск (ККЖДВ)	petrodvortsovyij
+a540	№ 116, гимназия	primorskij
+a536	№ 64, лицей	primorskij
+a562	№ 631, гимназия глобального гуманитарного образования	primorskij
+a532	№ 52, гимназия	primorskij
+a572	ГРАН, частная школа	primorskij
+a846	№ 540, гимназия	primorskij
+a537	№ 66, гимназия	primorskij
+a555	№ 597, лицей	primorskij
+a746	№ 46, школа с углубленным изучением английского языка	primorskij
+a531	№ 49, гимназия	primorskij
+a752	№ 106, школа	primorskij
+a566	№ 644, школа	primorskij
+a526	№ 42, гимназия	primorskij
+a545	№ 554, лицей	primorskij
+a525	№ 41, гимназия им. Эриха Кестнера с углубленным изучением немецкого языка	primorskij
+a563	№ 634, школа с углубленным изучением английского языка	primorskij
+a753	№ 246, школа	primorskij
+a556	№ 598, школа с углубленным изучением математики	primorskij
+a533	№ 53, школа	primorskij
+a561	№ 618, школа	primorskij
+a539	№ 113, школа	primorskij
+a524	№ 40, лицей	primorskij
+a565	№ 640, школа	primorskij
+a551	№ 582, школа с углубленным изучением английского и финского языков	primorskij
+a578	ДОВЕРИЕ	primorskij
+a527	№ 43, лингвистическая школа с углубленным изучением иностранных языков	primorskij
+a568	№ 683, школа	primorskij
+a552	№ 583, школа с углубленным изучением английского и японского языков	primorskij
+a560	№ 617, школа	primorskij
+a523	№ 38, школа	primorskij
+a564	№ 635, школа	primorskij
+a549	№ 580, школа	primorskij
+a546	№ 555, школа «БЕЛОГОРЬЕ» с углубленным изучением английского языка	primorskij
+a529	№ 45, школа с углубленным изучением математики	primorskij
+a553	№ 595, школа	primorskij
+a541	№ 253, школа	primorskij
+a573	Международная гимназия Ольгино	primorskij
+a548	№ 579, школа	primorskij
+a570	№ 688, школа для детей с ослабленным здоровьем и сохранным интеллектом	primorskij
+a528	№ 44, школа (восточные языки)	primorskij
+a579	НОУ ЛИЦЕЙ	primorskij
+a577	ЛИДЕР, школа	primorskij
+a696	№ 320, школа	primorskij
+a558	№ 600, школа с углубленным изучением английского языка	primorskij
+a851	№ 655, школа	primorskij
+a534	№ 57, школа	primorskij
+a559	№ 601, школа	primorskij
+a550	№ 581, школа	primorskij
+a557	№ 599, школа	primorskij
+a782	№ 630, школа	primorskij
+a567	№ 661, школа	primorskij
+a547	№ 578, школа	primorskij
+a535	№ 58, школа	primorskij
+a554	№ 596, школа с углубленным изучением французского языка	primorskij
+a543	№ 438, школа	primorskij
+a530	№ 48, школа	primorskij
+a542	№ 357, школа-интернат «Олимпийские надежды»	primorskij
+a538	№ 109, школа	primorskij
+a544	№ 440, школа	primorskij
+a761	№ 697, центр образования	primorskij
+a34	Бизнес-школа «ДЕЛОВАЯ ВОЛНА»	primorskij
+a571	№ 696, начальная школа - детский сад	primorskij
+a574	ГРААЛЬ, частная школа	primorskij
+a1112	№ 682, начальная школа - детский сад	primorskij
+a602	Школа им. А. М. Горчакова	pushkinskij
+a596	№ 530, школа с углубленным изучением предметов естественно-математического цикла	pushkinskij
+a589	№ 410, лицей	pushkinskij
+a585	№ 406, гимназия	pushkinskij
+a598	№ 606, школа с углубленным изучением английского языка	pushkinskij
+a734	№ 335, школа	pushkinskij
+a582	№ 297, школа	pushkinskij
+a819	№ 511, школа	pushkinskij
+a587	№ 408, лицей	pushkinskij
+a584	№ 403, школа	pushkinskij
+a595	№ 500, школа	pushkinskij
+a594	№ 477, школа с углубленным изучением предметов художественно-эстетического цикла	pushkinskij
+a599	№ 638, школа	pushkinskij
+a798	Кадетская школа	pushkinskij
+a810	Первый пограничный кадетский корпус Федеральной службы безопасности РФ (ППКК ФСБ)	pushkinskij
+a588	№ 409, школа	pushkinskij
+a590	№ 459, школа	pushkinskij
+a593	№ 464, школа	pushkinskij
+a597	№ 552, школа	pushkinskij
+a586	№ 407, школа	pushkinskij
+a583	№ 315, школа	pushkinskij
+a592	№ 462, школа	pushkinskij
+a800	№ 650, центр образования	pushkinskij
+a591	№ 460, школа	pushkinskij
+a600	№ 695, школа	pushkinskij
+a601	ГУМАНИТАРИЙ	pushkinskij
+a781	№ 8, школа-интернат (VII вида)	pushkinskij
+a1105	№ 607, школа	pushkinskij
+a1107	№ 16, школа-интернат (VIII вида)	pushkinskij
+a1108	№ 93, школа	pushkinskij
+a1114	№ 645, школа	pushkinskij
+a1115	№604, школа	pushkinskij
+a1117	№ 257, школа	pushkinskij
+a615	№ 292, школа с углубленным изучением математики	frunzenskij
+a629	№ 316, школа с углубленным изучением английского языка	frunzenskij
+a608	№ 213, школа с углубленным изучением английского языка	frunzenskij
+a637	№ 365, школа	frunzenskij
+a646	№ 587, гимназия	frunzenskij
+a606	№ 205, гимназия с углубленным изучением испанского языка	frunzenskij
+a613	№ 230, школа с углубленным изучением химии и биологии	frunzenskij
+a635	№ 363, гимназия	frunzenskij
+a616	№ 295, гимназия	frunzenskij
+a630	№ 318, школа с углубленным изучением итальянского языка	frunzenskij
+a641	№ 441, гимназия	frunzenskij
+a645	№ 553, школа с углубленным изучением английского языка	frunzenskij
+a622	№ 303, школа им. Ф. Шиллера с углубленным изучением немецкого языка	frunzenskij
+a612	№ 227, гимназия	frunzenskij
+a619	№ 299, лицей	frunzenskij
+a625	№ 311, школа с углубленным изучением физики	frunzenskij
+a611	№ 226, экономический лицей	frunzenskij
+a639	№ 368, школа с углубленным изучением английского языка	frunzenskij
+a614	№ 236, школа	frunzenskij
+a604	№ 201, школа	frunzenskij
+a618	№ 298, школа	frunzenskij
+a634	№ 360, школа	frunzenskij
+a644	№ 448, школа для леворуких и слабовидящих детей	frunzenskij
+a617	№ 296, школа	frunzenskij
+a626	№ 312, школа с углубленным изучением французского языка	frunzenskij
+a610	№ 218, школа	frunzenskij
+a647	№ 603, школа	frunzenskij
+a643	№ 444, школа	frunzenskij
+a638	№ 367, школа	frunzenskij
+a632	№ 325, школа	frunzenskij
+a621	№ 302, школа	frunzenskij
+a633	№ 359, школа	frunzenskij
+a654	ЭПИГРАФ, частная школа	frunzenskij
+a609	№ 215, школа	frunzenskij
+a627	№ 313, школа	frunzenskij
+a607	№ 212, школа	frunzenskij
+a603	№ 8, школа «МУЗЫКА» с углубленным изучением предметов музыкального цикла (музыкальный интернат)	frunzenskij
+a623	№ 305, школа	frunzenskij
+a628	№ 314, школа	frunzenskij
+a620	№ 301, школа	frunzenskij
+a605	№ 202, школа	frunzenskij
+a636	№ 364, школа (кадетские классы)	frunzenskij
+a624	№ 310, школа «СЛОВО»	frunzenskij
+a642	№ 443, школа	frunzenskij
+a631	№ 322, школа	frunzenskij
+a661	№ 153, центр образования	frunzenskij
+a648	№ 604, школа с углубленным изучением предметов художественно-эстетического цикла	frunzenskij
+a640	№ 376, школа	frunzenskij
+a650	№ 659, школа	frunzenskij
+a649	№ 647, национальная финская прогимназия для детей дошкольного и младшего школьного возраста «ТАЙМИ»	frunzenskij
+a690	№ 239, физико-математический лицей	tsentralnyij
+a730	Санкт-Петербургский городской Дворец творчества юных (Аничков лицей)	tsentralnyij
+a687	№ 214, лицей	tsentralnyij
+a662	№ 155, гимназия с углубленным изучением французского языка	tsentralnyij
+a667	№ 168, гимназия	tsentralnyij
+a669	№ 171, гимназия	tsentralnyij
+a663	№ 157, гимназия им. принцессы Е. М. Ольденбургской с углубленным изучением английского языка	tsentralnyij
+a684	№ 209, Павловская гимназия	tsentralnyij
+a683	№ 207, школа с углубленным изучением английского языка	tsentralnyij
+a698	№ 550, школа с углубленным изучением иностранных языков и информационных технологий	tsentralnyij
+a711	Альма Матер, гимназия	tsentralnyij
+a673	№ 183, школа с углубленным изучением английского языка	tsentralnyij
+a701	№ 636, школа с углубленным изучением иностранных языков	tsentralnyij
+a705	Международная школа Герценовского университета (МШГУ)	tsentralnyij
+a674	№ 185, школа с углубленным изучением английского языка	tsentralnyij
+a665	№ 166, гимназия	tsentralnyij
+a668	№ 169, школа с углубленным изучением английского языка	tsentralnyij
+a658	Российская гимназия при Государственном Русском музее	tsentralnyij
+a679	№ 197, школа с углубленным изучением предметов естественнонаучного цикла	tsentralnyij
+a685	№ 210, школа	tsentralnyij
+a808	Экономический лицей Международного банковского института (МБИ)	tsentralnyij
+a689	№ 222, школа «ПЕТРИШУЛЕ» с углубленным изучением немецкого языка	tsentralnyij
+a676	№ 190, художественно-эстетический лицей	tsentralnyij
+a686	№ 211, школа им. Пьера де Кубертена с углубленным изучением французского языка	tsentralnyij
+a694	№ 308, школа с углубленным изучением математики	tsentralnyij
+a681	№ 204, школа с углубленным изучением английского и финского языков	tsentralnyij
+a656	Музыкальный лицей Комитета по культуре	tsentralnyij
+a695	№ 309, школа	tsentralnyij
+a664	№ 163, школа	tsentralnyij
+a704	Обучение в диалоге	tsentralnyij
+a682	№ 206, школа	tsentralnyij
+a697	№ 321, школа	tsentralnyij
+a703	Экспресс, школа экстернат	tsentralnyij
+a699	№ 612, школа	tsentralnyij
+a672	№ 181, школа	tsentralnyij
+a666	№ 167, школа	tsentralnyij
+a657	ТУТТИ, школа с углубленным изучением предметов музыкального цикла	tsentralnyij
+a708	Мирт, частная школа	tsentralnyij
+a675	№ 189, школа «ШАНС»	tsentralnyij
+a693	№ 304, школа	tsentralnyij
+a818	№ 153, школа	tsentralnyij
+a671	№ 178, школа	tsentralnyij
+a677	№ 193, школа	tsentralnyij
+a743	Санкт-Петербургский технический колледж управления и коммерции (ТКУиК)	tsentralnyij
+a691	№ 294, школа	tsentralnyij
+a670	№ 174, школа	tsentralnyij
+a660	№ 122, школа	tsentralnyij
+a659	№ 80, центр образования	tsentralnyij
+a688	№ 216, школа им. А. Мицкевича с углубленным изучением польского языка	tsentralnyij
+a692	№ 300, начальная общеобразовательная школа	tsentralnyij
+a700	№ 620, начальная школа - детский сад	tsentralnyij
+a702	ПЕТЕРБУРГСКИЙ СТАНДАРТ, частная школа	tsentralnyij
+a706	УНИСОН, школа	tsentralnyij
+a707	Гимназия СТЕРХ	tsentralnyij
+a710	ШКОЛА ГЕРЦЕНОВСКОГО УНИВЕРСИТЕТА (ШГУ)	tsentralnyij
+a712	БАЛТИКА-КОЛЛЕДЖ, частная школа	tsentralnyij
+a714	INSIGHT SCHOOL, начальная школа	tsentralnyij
+a778	№ 5, коррекционная школа VII вида	tsentralnyij
