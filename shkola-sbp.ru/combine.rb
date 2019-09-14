@@ -4,16 +4,12 @@
 require 'csv'
 require 'awesome_print'
 require 'set'
+require '../files'
 
 list1 = {}
 list2 = {}
 
-COMPACT_CSV = '../data/shkola-spb.ru/schools-parsed-schkola.spb.ru.csv'
-DETAIL_CSV = '../data/shkola-spb.ru/schools-parsed-detail-schkola.spb.ru.csv'
-OUTPUT_FILE = '../data/shkola-spb.ru/schools-schkola.spb.ru.csv'
-
-
-CSV.open(COMPACT_CSV, 'r') do |file|
+CSV.open('../' + SHKOLASPB_PARSED_COMPACT, 'r') do |file|
   rows = file.readlines
 
   keys = rows.shift
@@ -24,7 +20,7 @@ CSV.open(COMPACT_CSV, 'r') do |file|
 end
 
 
-CSV.open(DETAIL_CSV, 'r') do |file|
+CSV.open('../' + SHKOLASPB_PARSED_DETAIL, 'r') do |file|
   rows = file.readlines
 
   keys = rows.shift
@@ -46,7 +42,7 @@ end
 
 all_keys.delete('title')
 
-CSV.open(OUTPUT_FILE, 'wb') do |file|
+CSV.open('../' + SHKOLASPB, 'wb') do |file|
   file << all_keys
   list3.values.each do |row|
     file << all_keys.map { |key| row[key] }

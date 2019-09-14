@@ -1,39 +1,39 @@
+# Создаёт новый список, такой же как SHKOLASPB, но с двумя дополнительными полями: globalid и detector
 # берёт два списка с названиями школ и сопоставляет названия из одного списка названиям из другого
-# Дело в том, что в разных местах навания школ отличаются деталями (например "ГБОУ СОШ №133" и "Школа 133 Московского района")
+# Дело в том, что в разных местах навания школ отличаются деталями (например "ГБОУ СОШ №133" и "Школа 133
+# Московского района")
 require 'csv'
+require 'pry'
 require 'awesome_print'
+require 'colored'
 #require "damerau-levenshtein"
-
-# школы из petersburgedu.ru, которые не попали в итоговый список
-NOT_USED = './data/not_used.csv'
-
-# школы из shkola.spb.ru, для которых не удалось найти сопоставления в petersburgedu.ru
-NOT_FOUND = './data/not_found.csv'
+require_relative('files')
 
 def start
-	names = CSV.read('./data/names.csv', headers: true).map { |a| Hash[a] }
-	p_items = CSV.read('./data/petersburgedu.ru-full.csv', headers: true).map { |a| Hash[a] }
-	s_items = CSV.read('./data/shkola-spb.ru/schools-schkola.spb.ru.csv', headers: true).map { |a| Hash[a] }
-	m_items = CSV.read('./data/shkolaspb-orgn-manual.csv', headers: true).map { |a| Hash[a] }
-	output = CSV.open('./data/shkola-spb.ru/schools-schkola.spb.ru-with-id.csv', 'w')
-	
-	output << s_items[0].keys + ['main_id', 'detector']
+	names = CSV.read(NAMES, headers: true).map { |a| Hash[a] }
+	p_items = CSV.read(PETERSBURGEDU, headers: true).map { |a| Hash[a] }
+	s_items = CSV.read(SHKOLASPB, headers: true).map { |a| Hash[a] }
+	m_items = CSV.read(SHKOLASPBID_ORGN, headers: true).map { |a| Hash[a] }
+	s_not_detected_ids = CSV.read(SHKOLASPB_ID_NOT_DETECTED, headers: true).map { |a| [a['shkolaspbid'], a['id']] }.to_h
+	ogrn_id = CSV.read(OGRN_ID_PETERSBURGEDU, headers: true).map { |a| [a['ogrn'], a['id']] }.to_h
 
+	id_by_orgn = -> (ogrn) { ogrn_id[ogrn] }
+
+	output = CSV.open(SHKOLASPB_WITH_ID, 'w')
+	
+	output << s_items[0].keys + ['globalid', 'detector']
 
 	not_found = CSV.open(NOT_FOUND, 'w')
 	not_found << s_items[0].keys
 
-
-
 	s_items.each do |s_item|
-		print '.'
 		troubles = []
 
 		################
 		found = select_manual(s_item['id'], m_items)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['ogrn'], 'select_manual']
+			add_row(output, s_item.values, id_by_orgn[found[0]['ogrn']], 'select_manual')
 			next
 		elsif found.count > 1
 			troubles << [s_item, found, 'select_manual']
@@ -43,7 +43,7 @@ def start
 		found = select_exactly(s_item['name'], names)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['id'], 'select_exactly']
+			add_row(output, s_item.values, found[0]['id'], 'select_exactly')
 			next
 		elsif found.count > 1
 			troubles << [s_item, found, 'select_exactly']
@@ -53,7 +53,7 @@ def start
 		found = select_including(s_item['name'], names)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['id'], 'select_including']
+			add_row(output, s_item.values, found[0]['id'], 'select_including')
 			next
 		elsif found.count > 1
 			troubles << [s_item, found, 'select_including']
@@ -63,7 +63,7 @@ def start
 		found = select_by_words(s_item['name'], names)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['id'], 'select_by_words']
+			add_row(output, s_item.values, id_by_orgn[found[0]['id']], 'select_by_words')
 			next
 		elsif found.count > 1
 			troubles << [s_item, found, 'select_by_words']
@@ -73,13 +73,12 @@ def start
 		found = select_by_number(s_item['name'], names)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['id'], 'select_by_number']
-
+			add_row(output, s_item.values, found[0]['id'], 'select_by_number')
 			next
 		elsif found.count > 1
 			if found.map { |a| a['id'] }.uniq.count == 1
 				found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-				output << s_item.values + [found[0]['id'], 'select_by_number']
+				add_row(output, s_item.values, found[0]['id'], 'select_by_number')
 				next
 			else
 				troubles << [s_item, found, 'select_by_number']
@@ -91,7 +90,7 @@ def start
 		found = select_by_phones(s_item['phones'], p_items)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['ОГРН'], 'select_by_phones']
+			add_row(output, s_item.values, id_by_orgn[found[0]['ОГРН']], 'select_by_phones')
 			next
 		end
 
@@ -99,7 +98,7 @@ def start
 		found = select_by_url(s_item['url'], p_items)
 		if found.count == 1
 			found_rest, names = names.partition { |a| a['id'] == found[0]['id'] }
-			output << s_item.values + [found[0]['ОГРН'], 'select_by_url']
+			add_row(output, s_item.values, id_by_orgn[found[0]['ОГРН']], 'select_by_url')
 			next
 		elsif found.count > 1
 			troubles << [s_item, found, 'select_by_url']
@@ -107,9 +106,10 @@ def start
 
 		end
 
+
+		add_row(output, s_item.values, s_not_detected_ids[s_item['id']], 'not_detected')
+
 		#ap found
-
-
 
 		if troubles.empty?
 			#p 'школа не найдена:'
@@ -121,6 +121,7 @@ def start
 			ap troubles
 		end
 
+		print '.'.red
 	end
 
 	not_found.close
@@ -241,15 +242,21 @@ end
 # выбирает точные совпадения по одному из полей
 def select_exactly(name, names)
 	name = name.downcase
-	found = names.select { |item| item['name'].strip.downcase == name }
-	#rest = names - found
-	#[found, rest]
+	names.select { |item| item['name'].strip.downcase == name }
 end
 
 # выбирает названия по вхождения
 def select_including(name, names)
 	name = name.downcase
 	names.select { |item| item['name'].strip.downcase.include?(name) }
+end
+
+def add_row(output, existed, id, detector)
+	unless id
+		p detector, existed
+	end
+	output << existed + [id, detector]
+	print '.'
 end
 
 
