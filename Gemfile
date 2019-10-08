@@ -14,3 +14,11 @@ gem "awesome_print", "~> 1.8"
 gem "chardet", "~> 0.9.0"
 
 gem "rchardet", "~> 1.8"
+
+gem "fuzzy_match", "~> 2.1"
+
+gem "damerau-levenshtein", "~> 1.3"
+
+gem "amatch", "~> 0.4.0"
+
+gem 'colored'
