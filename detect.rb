@@ -33,6 +33,8 @@ lines.each do |line|
 		puts compacted[0]
 	elsif compacted.count > 1
 		puts 'error'.red
+  else
+    puts ''
 	end
 
 end
