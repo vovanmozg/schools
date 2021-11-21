@@ -3,13 +3,10 @@ require 'awesome_print'
 require 'nokogiri'
 require "damerau-levenshtein"
 require 'amatch'
+require 'csv'
 
 include Amatch
 
-$strings = IO.readlines('./strings.txt').map(&:chomp)
-
-# откючить варнинги парсера XLSX
-Zip.warn_invalid_date = false
 
 def get_raw_text(cell)
 	Nokogiri::HTML(cell).text
@@ -32,8 +29,19 @@ end
 # 	[words, text, doc.text]
 # end
 
-def calc_max_weight(raw_text, strings, row, col)
-	normalized_strings = strings.map{ |s| { value: get_text(get_words(get_raw_text(s))), original: s} }
+def cache_get(key)
+  $cache[key]
+end
+
+def cache_set(key, value)
+  $cache[key] = value
+end
+
+def calc_max_weight(raw_text, normalized_strings, row, col)
+  max_distance = cache_get(raw_text)
+  return max_distance if max_distance
+
+	#normalized_strings = strings.map{ |s| { value: get_text(get_words(get_raw_text(s))), original: s} }
 	words = get_words(raw_text)
 	text = get_text(words)
 
@@ -57,6 +65,7 @@ def calc_max_weight(raw_text, strings, row, col)
 		end
 	end
 
+  cache_set(raw_text, max_distance)
 	max_distance
 end
 
@@ -73,10 +82,9 @@ def process_file(file_name)
 
 #p sheet.methods.grep(/row/)
 
-	i=0
+	i = 0
 	r = 0
 	c = 0
-
 
 
 
@@ -164,57 +172,57 @@ def process_file(file_name)
 	#ap subtable
 	#ap weights
 
-	return weights
+	# return weights
 
-	str = vars.map{|v| v[:text]}.join(' ')
-
-	#index = str.index('Показатели')
-	indexes = str.enum_for(:scan, /(?=Показатели)/).map { Regexp.last_match.offset(0).first }
-
-	p '-------------------------------------'
-	indexes.each do |index|
-		fact = str[index..index + 100]
-		#p fact
-
-		ideal = 'Показатели Единица измерения Образовательная деятельность Общая численность учащихся'
-		m = PairDistance.new(ideal)
-
-		distance = m.match(fact)
-		#if distance > 0.9
-			p distance
-		#end
-
-	end
-
-
-
-
-	return
-
-	(sheet.first_row..sheet.last_row).each do |row|
-		(sheet.first_column..sheet.last_column).each do |col|
-			if xls.cell(row,col)
-
-				doc = Nokogiri::HTML(xls.cell(row,col))
-				if doc.text == 'Показатели'
-					p '----------------'
-					if xls.cell(row, col - 1)
-						doc2 = Nokogiri::HTML(xls.cell(row, col - 1))
-						p doc2.text
-					end
+	# str = vars.map{|v| v[:text]}.join(' ')
+	#
+	# #index = str.index('Показатели')
+	# indexes = str.enum_for(:scan, /(?=Показатели)/).map { Regexp.last_match.offset(0).first }
+	#
+	# p '-------------------------------------'
+	# indexes.each do |index|
+	# 	fact = str[index..index + 100]
+	# 	#p fact
+	#
+	# 	ideal = 'Показатели Единица измерения Образовательная деятельность Общая численность учащихся'
+	# 	m = PairDistance.new(ideal)
+	#
+	# 	distance = m.match(fact)
+	# 	#if distance > 0.9
+	# 		p distance
+	# 	#end
+	#
+	# end
 
 
 
-					#p xls.cell(row - 1, col - 1)
-					#p xls.cell(row - 1, col)
-					r = row
-					c  = col
-				end
-			end
-		end
-	end
 
-	p r, c
+	# return
+
+	# (sheet.first_row..sheet.last_row).each do |row|
+	# 	(sheet.first_column..sheet.last_column).each do |col|
+	# 		if xls.cell(row,col)
+	#
+	# 			doc = Nokogiri::HTML(xls.cell(row,col))
+	# 			if doc.text == 'Показатели'
+	# 				p '----------------'
+	# 				if xls.cell(row, col - 1)
+	# 					doc2 = Nokogiri::HTML(xls.cell(row, col - 1))
+	# 					p doc2.text
+	# 				end
+	#
+	#
+	#
+	# 				#p xls.cell(row - 1, col - 1)
+	# 				#p xls.cell(row - 1, col)
+	# 				r = row
+	# 				c  = col
+	# 			end
+	# 		end
+	# 	end
+	# end
+
+	# p r, c
 
 	#exit
 
@@ -225,26 +233,140 @@ def process_file(file_name)
 	# 	exit
 	# end
 
-
 end
 
 
+# @return [Hash] like { [2029, 2] => 'Содержимое ячейки', ...}
+def convert_to_a(xls)
+  sheet = xls.sheet('Sheet1')
+
+  res = {}
+
+  (sheet.first_row..sheet.last_row).each do |row|
+    (sheet.first_column..sheet.last_column).each do |col|
+      # игнорировать пустые ячейки
+      next unless xls.cell(row, col)
+
+      res[[row, col]] = get_raw_text(xls.cell(row, col))
+    end
+  end
+
+  res
+end
+
+def find_titles(table)
+
+  titles = {}
+  weight_total = Hash.new(0)
+  subtable_params = {}
+
+  table.each do |(row, col), text|
+    # найти в $strings наиболее близкое слово и вернуть вес
+    max_weight = calc_max_weight(text, $normalized_strings, row, col)
+
+    weight_total[col] << max_weight[:value]
+
+    if max_weight[:value] > 0.9
+      titles[[row, col]] = max_weight
 
 
+      subtable_params[:first_row] = subtable_params[:first_row] || row
+
+      subtable_params[:last_row] = row
+
+      subtable_params[:first_col] = col if subtable_params[:first_col].nil?
+      unless subtable_params[:first_col].nil?
+        subtable_params[:first_col] = col if col < subtable_params[:first_col]
+      end
+
+      subtable_params[:last_col] = col if subtable_params[:last_col].nil?
+      unless subtable_params[:last_col].nil?
+        subtable_params[:last_col] = col if col > subtable_params[:last_col]
+      end
+
+      weight_total[col] += 1
+      #print '+'
+    else
+      #print '.'
+    end
+  end
+
+  {
+    titles: titles,
+    subtable_params: subtable_params
+  }
+end
+
+def find_values(table, titles)
+  values = {}
+
+  titles.each do |(row, col), item|
+    row2 = item[:index] + 1
+    #col = item[:col]
+    values[[row2, col]] = item[:string]
+    values[[row2, col - 1]] = table[[row, col - 1]]
+    values[[row2, col + 1]] = table[[row, col + 1]]
+  end
+
+  values
+end
+
+def format_to_export(values)
+  table = []
+
+  values.each do |(row, col), value|
+    table[row-1] ||= []
+    table[row-1][col-1] = value
+  end
+
+  table
+end
+
+def export(table, file_name)
+  CSV.open("#{file_name}.csv", 'w') do |csv|
+    csv << ['n', 'title', 'value']
+
+    table.each do |row|
+      csv << row if row
+    end
+  end
+end
+
+def process_file2(file_name)
+  xls = Roo::Spreadsheet.open(file_name)
+  table = convert_to_a(xls)
+  data = find_titles(table)
+  values = find_values(table, data[:titles])
+  formatted_table = format_to_export(values)
+  export(formatted_table, file_name)
+
+end
+
+def main
+  $cache = {}
+
+# откючить варнинги парсера XLSX
+  Zip.warn_invalid_date = false
+
+  $strings = IO.readlines('./strings.txt').map(&:chomp)
+  $normalized_strings = $strings.map{ |s| { value: get_text(get_words(get_raw_text(s))), original: s} }
 
 
-files = Dir.glob('/Users/vovanmozg/Yandex.Disk-vovanmozg2.localized/schools3/**/*.xlsx')
-#files = Dir.glob('/media/sda/yandex_disk/schools3/**/*.xlsx')
+  files = Dir.glob('/Users/vovanmozg/Yandex.Disk-vovanmozg2.localized/schools3/**/*.xlsx') +
+    Dir.glob('/media/sda/yandex_disk/schools3/**/*.xlsx')
 
 # исключить временные файлы (восстановления excel)
-files.reject! { |file_name| File.basename(file_name) =~ /^~/  }
+  files.reject! { |file_name| File.basename(file_name) =~ /^~/  }
 
-files.each do |file_name|
-	weights = process_file(file_name)
-  ap weights
+  files.each do |file_name|
+    weights = process_file2(file_name)
 
-  exit
+    exit # process only one file
+  end
 end
+
+main
+
 
 
 
